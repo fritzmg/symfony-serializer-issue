@@ -1,0 +1,6 @@
+framework:
+    secret: '%env(APP_SECRET)%'
+    annotations:
+        enabled: true
+    serializer:
+        enable_attributes: true
